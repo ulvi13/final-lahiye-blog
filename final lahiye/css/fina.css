@@ -1,0 +1,35 @@
+.homeblog{
+    background:url(../photo/bgn-heading-02.jpg);
+    text-align: center;
+    height: 350px;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    position: relative;
+   color:#fff;
+   
+    background-size: cover;
+}
+.homeblog h1{
+    font-size: 60px;
+    
+}
+.homeblog p{
+    font-size:21px;
+}
+.blog{
+    padding-top:90px;
+    color:#fff;
+    position: relative;
+    z-index: 200 !important
+}
+.color{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    background-image: -webkit-linear-gradient(left,#1976bc 0%,#8dc645 100%);
+    background-image: -moz-linear-gradient(left,#1976bc 0%,#8dc645 100%);
+    background-image: linear-gradient(to right,#1976bc 0%,#8dc645 100%);
+    opacity: .7;
+    bottom:0
+}
